@@ -1,0 +1,23 @@
+all: tst calc template clean
+
+tst:tst.cc
+	g++ tst.cc -o tst
+	./tst
+
+calc:calc.cc
+	g++ calc.cc -o calc
+	./calc
+
+template:template.cc 
+	g++ template.cc -o template
+	./template
+
+clean:
+	rm -f tst
+	rm -f calc
+	rm -f template
+	rm -f *~
+	rm -f a.out
+.PHONY:tst calc template clean
+
+
