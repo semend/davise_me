@@ -1,6 +1,8 @@
 This is a 1-by-2 decoder example, which is a makefile project and so no need for an IDE. 
 Just cd into this folder and run the command 
+
     make decoder
+
 
 A line decoder is a device that changes the input code into a set of signals.<br>
 It takes an n-digit binary number and decodes it into 2<sup>n</sup> data lines.
@@ -26,5 +28,8 @@ The above MOC was implemented in systemc (code in this folder) and the following
 Traced signals timing diagram:
 <p align="left">
   <img src="timing_diagram.png" width="400"/>
-</p>																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																			
+<p>
 
+Tutorial 2:
+Create a decoder_2by4 based on this decoder_1by2.<br>
+hint: systemc modules can be cascaded to build more complex modules.
