@@ -1,2 +1,3 @@
 # davise_me
-This s for systemc projects
+Reg. No. I39/31185/2014
+Davis N. Seme
